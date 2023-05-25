@@ -1,7 +1,6 @@
 # Databricks notebook source
 ############################################################
-# Section 1: Tile Puzzle
-############################################################
+
 import queue
 import copy 
 

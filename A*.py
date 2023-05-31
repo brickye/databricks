@@ -117,11 +117,6 @@ class TilePuzzle(object):
                 if self.board[dx][dy]==value:
                     return dx, dy
                   
-
-# b = [[4,1,2], [0,5,3], [7,8,6]]
-# p = TilePuzzle(b)
-# print(p.find_solution_a_star())
-
 b = [[1,3,2], [4,0,5], [6,7,8]]
 p = TilePuzzle(b)
 print(p.find_solution_a_star())
